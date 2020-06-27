@@ -1,4 +1,4 @@
-# Face Detection Raspberry Pi 32/64 bits
+# Face Detection on Raspberry Pi 32/64 bits
 ![output image]( https://qengineering.eu/images/Walk.jpg )
 
 ## Super fast face recognition running at 80 FPS on bare Raspberry Pi 4.
