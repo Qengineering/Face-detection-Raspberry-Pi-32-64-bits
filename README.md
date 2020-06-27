@@ -28,18 +28,16 @@ Remove master.zip and README.md as they are no longer needed. <br/>
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
 Your *MyDir* folder must now look like this: <br/> 
-Face_1.jpg <br/>
-Face_2.jpg <br/>
-Face_3.jpg <br/>
-Face_Mask_Video.mp4 <br/>
-MaskUltra.cpb <br/>
-mask_ultra.cpp <br/>
+Walk2.mp4 <br/>
+FaceDetection.cpb <br/>
+main.cpp <br/>
 UltraFace.cpp <br/>
 UltraFace.hpp <br/>
-RFB-320.bin <br/>
-RFB-320.param <br/>
-slim_320.bin <br/>
-slim_320.param <br/>
+RFB-320.mnn (fp32)<br/>
+RFB-320-quant-ADMM-32.mnn (int8 ADMM quantified)<br/>
+RFB-320-quant-KL-5792.mnn (int8 KL quantified)<br/>
+slim_320.mnn (fp32)<br/>
+slim_320-quant-ADMM-50.mnn (int8 ADMM quantified)<br/>
  <br/>
-The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. It is up to you.<br/>
+The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. The quantified models are slighty faster. Choose the one you like.<br/>
 See the video at https://youtu.be/LDPXgJv3wAk
