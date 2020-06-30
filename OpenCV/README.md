@@ -1,11 +1,4 @@
 # Fast face detection at 30 FPS on bare Raspberry Pi 4.
-This is a fast C++ implementation of the face detector of Linzaer running on an OpenCV framework.<br/> 
-https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB. <br/><br/>
-Paper: https://arxiv.org/abs/1905.00641.pdf <br/>
-Size: 320x320 <br/><br/>
-Special made for a bare Raspberry Pi see https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html <br/>
-To run this app, you don't have to install a special deep learning framework, as OpenCV can run ONNX model.<br/>
-## Dependencies.
 To run the application on a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
 - OpenCV 64 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-64-os.html) <br/>
