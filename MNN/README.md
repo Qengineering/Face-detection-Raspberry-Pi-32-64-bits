@@ -27,12 +27,12 @@ $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
-Your *MyDir* folder must now look like this: <br/> 
-Walk2.mp4 <br/>
-FaceDetection.cpb <br/>
-main.cpp <br/>
-UltraFace.cpp <br/>
-UltraFace.hpp <br/>
+Your *MyDir/MNN* folder must now look like this: <br/> 
+Walk2.mp4 (demo video)<br/>
+FaceDetection.cpb (code::blocks project file)<br/>
+main.cpp (main example file)<br/>
+MNN_UltraFace.cpp (Ultra face class)<br/>
+MNN_UltraFace.hpp (Ultra face class)<br/>
 RFB-320.mnn (fp32)<br/>
 RFB-320-quant-ADMM-32.mnn (int8 ADMM quantified)<br/>
 RFB-320-quant-KL-5792.mnn (int8 KL quantified)<br/>
