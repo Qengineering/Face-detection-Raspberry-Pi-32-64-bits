@@ -39,5 +39,5 @@ RFB-320-quant-KL-5792.mnn (int8 KL quantified)<br/>
 slim_320.mnn (fp32)<br/>
 slim_320-quant-ADMM-50.mnn (int8 ADMM quantified)<br/>
  <br/>
-The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. The quantified models are slighty faster. Choose the one you like.<br/>
+The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. The quantified models are a lot faster. Choose the one you like.<br/>
 See the video at https://youtu.be/DERA83C9K2A
