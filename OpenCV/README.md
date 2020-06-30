@@ -1,21 +1,20 @@
 # Face Detection on Raspberry Pi 32/64 bits
 ![output image]( https://qengineering.eu/images/Walk.jpg )
 
-## Super fast face recognition running at 80 FPS on bare Raspberry Pi 4.
-This is a ultra fast C++ implementation of the face detector of Linzaer running on a OpenCV framework.<br/> 
+## Fast face recognition running at 30 FPS on bare Raspberry Pi 4.
+This is a fast C++ implementation of the face detector of Linzaer running on an OpenCV framework.<br/> 
 https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB. <br/><br/>
 Paper: https://arxiv.org/abs/1905.00641.pdf <br/>
 Size: 320x320 <br/><br/>
 Special made for a bare Raspberry Pi see https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html <br/>
+To run this app, you don't have to install a special deep learning framework, as OpenCV can run ONNX model.<br/>
 ## Dependencies.
 To run the application on a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
-- The Alibaba's MNN framework installed. (https://qengineering.eu/install-mnn-on-raspberry-pi-4.html) <br/>
 - OpenCV 64 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-64-os.html) <br/>
 - Code::Blocks installed.<br/>
 
 To run the application on a 32 OS, you need:<br/>
-- The Alibaba's MNN framework installed. (https://qengineering.eu/install-mnn-on-raspberry-pi-4.html) <br/>
 - OpenCV 32 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html) <br/>
 - Code::Blocks installed.
 ## Running the app.
@@ -27,7 +26,7 @@ $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
-Your *MyDir* folder must now look like this: <br/> 
+Your *MyDir/OpenCV* folder must now look like this: <br/> 
 Walk2.mp4 <br/>
 FaceDetection.cpb <br/>
 main.cpp <br/>
