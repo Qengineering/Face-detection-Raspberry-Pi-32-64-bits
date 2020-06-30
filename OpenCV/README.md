@@ -1,5 +1,6 @@
 # Fast face detection at 30 FPS on bare Raspberry Pi 4.
-To run the application on a 64 OS, you have to:<br/>
+To run this app, you don't have to install a special deep learning framework, as OpenCV can run ONNX model.<br/>
+For a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
 - OpenCV 64 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-64-os.html) <br/>
 - Code::Blocks installed.<br/>
