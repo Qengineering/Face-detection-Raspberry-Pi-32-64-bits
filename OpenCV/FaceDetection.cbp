@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FaceDetection" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FaceDetection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FaceDetection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="RFB-320-quant-ADMM-32.mnn 1.jpg" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-pthread" />
+			<Add directory="/usr/local/include/opencv4" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs --cflags opencv4`" />
+			<Add option="-pthread" />
+			<Add directory="/usr/local/lib/" />
+		</Linker>
+		<Unit filename="cv_dnn_ultraface.cpp" />
+		<Unit filename="cv_dnn_ultraface.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
