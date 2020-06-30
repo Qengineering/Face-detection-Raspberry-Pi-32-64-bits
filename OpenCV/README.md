@@ -27,16 +27,15 @@ Remove master.zip and README.md as they are no longer needed. <br/>
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
 Your *MyDir/OpenCV* folder must now look like this: <br/> 
-Walk2.mp4 <br/>
-FaceDetection.cpb <br/>
-main.cpp <br/>
-UltraFace.cpp <br/>
-UltraFace.hpp <br/>
-RFB-320.mnn (fp32)<br/>
-RFB-320-quant-ADMM-32.mnn (int8 ADMM quantified)<br/>
-RFB-320-quant-KL-5792.mnn (int8 KL quantified)<br/>
-slim_320.mnn (fp32)<br/>
-slim_320-quant-ADMM-50.mnn (int8 ADMM quantified)<br/>
+Walk2.mp4 (demo video)<br/>
+FaceDetection.cpb (code::blocks project file)<br/>
+main.cpp (main example file)<br/>
+cv_dnn_ultraface.cpp (Ultra face class)<br/>
+cv_dnn_ultraface.h (Ultra face class)<br/>
+version-RFB-320_simplified.onnx (onnx model)<br/>
+version-RFB-320_without_postprocessing.onnx (onnx model)<br/>
+version-slim-320_simplified.onnx (onnx model)<br/>
+version-slim-320_without_postprocessing.onnx (onnx model)<br/>
  <br/>
-The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. The quantified models are slighty faster. Choose the one you like.<br/>
+The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. Choose the one you like.<br/>
 See the video at https://youtu.be/DERA83C9K2A
