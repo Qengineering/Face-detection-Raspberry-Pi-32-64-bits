@@ -10,12 +10,12 @@ Special made for a bare Raspberry Pi see https://qengineering.eu/deep-learning-e
 ## Dependencies.
 To run the application on a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
-- The Alibaba's MNN framework installed. (https://qengineering.eu/install-mnn-on-raspberry-pi-4.html) <br/>
+- The Tencent ncnn framework installed. (https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) <br/>
 - OpenCV 64 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-64-os.html) <br/>
 - Code::Blocks installed.<br/>
 
 To run the application on a 32 OS, you need:<br/>
-- The Alibaba's MNN framework installed. (https://qengineering.eu/install-mnn-on-raspberry-pi-4.html) <br/>
+- The Tencent ncnn framework installed. (https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) <br/>
 - OpenCV 32 bit installed. (https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html) <br/>
 - Code::Blocks installed.
 ## Running the app.
@@ -27,17 +27,16 @@ $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
 $ rm README.md <br/> <br/>
-Your *MyDir* folder must now look like this: <br/> 
-Walk2.mp4 <br/>
-FaceDetection.cpb <br/>
-main.cpp <br/>
-UltraFace.cpp <br/>
-UltraFace.hpp <br/>
-RFB-320.mnn (fp32)<br/>
-RFB-320-quant-ADMM-32.mnn (int8 ADMM quantified)<br/>
-RFB-320-quant-KL-5792.mnn (int8 KL quantified)<br/>
-slim_320.mnn (fp32)<br/>
-slim_320-quant-ADMM-50.mnn (int8 ADMM quantified)<br/>
+Your *MyDir/ncnn* folder must now look like this: <br/> 
+Walk2.mp4 (demo video)<br/>
+FaceDetection.cpb (code::blocks project file)<br/>
+main.cpp (main example file)<br/>
+ncnn_UltraFace.cpp (Ultra face class)<br/>
+ncnn_UltraFace.hpp (Ultra face class)<br/>
+RFB-320.bin (ncnn model)<br/>
+RFB-320.param (ncnn topology file)<br/>
+Slim_320.bin (ncnn model)<br/>
+Slim_320.param (ncnn topology file)<br/>
  <br/>
-The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. The quantified models are slighty faster. Choose the one you like.<br/>
+The RFB-320 model recognizes slightly more faces than slim_320 at the expense of a little bit of speed. Choose the one you like.<br/>
 See the video at https://youtu.be/DERA83C9K2A
