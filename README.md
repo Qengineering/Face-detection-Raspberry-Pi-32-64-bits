@@ -13,6 +13,8 @@ Three frameworks are supported:<br/>
 - Tencent ncnn framework <br/>
 - OpenCV dnn <br/>
 ![output image]( https://qengineering.eu/images/UltraFaceCompare.png ) <br/>
-The MNN framework has also 8 bit quantized models. These are very fast. <br/>
-![output image]( https://qengineering.eu/images/UltraFaceMNNCompare.png ) <br/>
+The framerate is based upon the average execution time of the single frames. <br/>
+Loading frames from a file, plotting boxes, and showing the result on the screen are not taken into account. <br/>
+The MNN framework has also 8 bit quantized models. These are very fast. <br/><br/>
+![output image]( https://qengineering.eu/images/UltraFaceMNNCompare.png ) <br/><br/>
 See the video at https://youtu.be/DERA83C9K2A
