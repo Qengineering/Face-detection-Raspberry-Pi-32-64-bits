@@ -1,10 +1,4 @@
 # Fast face detection at 28 FPS on bare Raspberry Pi 4.
-This is a fast C++ implementation of the face detector of Linzaer running on a ncnn framework.<br/> 
-https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB. <br/><br/>
-Paper: https://arxiv.org/abs/1905.00641.pdf <br/>
-Size: 320x320 <br/><br/>
-Special made for a bare Raspberry Pi see https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html <br/>
-## Dependencies.
 To run the application on a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
 - The Tencent ncnn framework installed. (https://qengineering.eu/install-ncnn-on-raspberry-pi-4.html) <br/>
