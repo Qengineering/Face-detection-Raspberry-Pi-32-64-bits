@@ -1,7 +1,4 @@
-# Face Detection on Raspberry Pi 32/64 bits
-![output image]( https://qengineering.eu/images/Walk.jpg )
-
-## Super fast face recognition running at 80 FPS on bare Raspberry Pi 4.
+# Super fast face recognition running at 80 FPS on bare Raspberry Pi 4.
 This is a ultra fast C++ implementation of the face detector of Linzaer running on a MNN framework.<br/> 
 https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB. <br/><br/>
 Paper: https://arxiv.org/abs/1905.00641.pdf <br/>
