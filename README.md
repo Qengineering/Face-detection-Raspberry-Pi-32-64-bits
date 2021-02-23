@@ -18,3 +18,6 @@ Loading frames from a file, plotting boxes, and showing the result on the screen
 The MNN framework has also 8 bit quantized models. These are very fast. <br/><br/>
 ![output image]( https://qengineering.eu/images/UltraFaceMNNCompare.png ) <br/><br/>
 See the video at https://youtu.be/DERA83C9K2A
+### Thanks.
+https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB<br/>
+
