@@ -1,3 +1,4 @@
+![output image](https://qengineering.eu/images/SDcard16GB_tiny.jpg) Find this example on our [SD-image](https://github.com/Qengineering/RPi-image)
 # Fast face detection at 30 FPS on bare Raspberry Pi 4.
 To run this app, you don't have to install a special deep learning framework, as OpenCV can run ONNX model.<br/>
 For a 64 OS, you have to:<br/>
