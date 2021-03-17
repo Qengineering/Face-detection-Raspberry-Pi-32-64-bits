@@ -1,3 +1,4 @@
+![output image](https://qengineering.eu/images/SDcard16GB_tiny.jpg) Find this example on our [SD-image](https://github.com/Qengineering/RPi-image)
 # Super fast face detection at 80 FPS on bare Raspberry Pi 4.
 To run the application on a 64 OS, you have to:<br/>
 - A raspberry Pi 4 with a 64-bit operating system. It can be the Raspberry 64-bit OS, or Ubuntu 18.04 / 20.04. (https://qengineering.eu/install-raspberry-64-os.html) <br/>
