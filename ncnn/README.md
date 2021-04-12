@@ -14,7 +14,7 @@ To run the application on a 32 OS, you need:<br/>
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/Face-detection-Raspberry-Pi-32-64-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/Face-detection-Raspberry-Pi-32-64-bits/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
