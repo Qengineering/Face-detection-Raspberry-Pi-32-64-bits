@@ -40,6 +40,7 @@
 			<Add option="`pkg-config --libs --cflags opencv4`" />
 			<Add option="-pthread" />
 			<Add option="-fopenmp" />
+			<Add option="-ldl" />
 			<Add library="/usr/local/lib/ncnn/libncnn.a" />
 			<Add directory="/usr/local/lib/" />
 		</Linker>
