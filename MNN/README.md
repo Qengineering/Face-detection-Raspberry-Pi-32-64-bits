@@ -17,6 +17,7 @@
 | LFFD| ncnn | 8 stage | 320x240 | 88.6 | 11.7 FPS | 3.45 FPS |
 | LFFD| MNN | 5 stage | 320x240 | 88.6 | 2.6 FPS | 2.17 FPS |
 | LFFD| MNN | 8 stage | 320x240 | 88.6 | 1.8 FPS | 1.49 FPS |
+| CenterFace| ncnn | - | 320x240 | 93 | 16.5 FPS | 6.8 FPS |
 
 ------------
 
@@ -69,4 +70,8 @@ See the video at https://youtu.be/DERA83C9K2A
 ![output image](https://qengineering.eu/images/ResultSelfie-slim.jpg) 
 ### slim_320-quant-ADMM-50 (int8 ADMM quantified)<br/>
 ![output image](https://qengineering.eu/images/ResultSelfie-slim-quant-ADMM.jpg) 
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
 
