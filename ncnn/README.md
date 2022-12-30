@@ -17,6 +17,11 @@
 | LFFD| ncnn | 8 stage | 320x240 | 88.6 | 11.7 FPS | 3.45 FPS |
 | LFFD| MNN | 5 stage | 320x240 | 88.6 | 2.6 FPS | 2.17 FPS |
 | LFFD| MNN | 8 stage | 320x240 | 88.6 | 1.8 FPS | 1.49 FPS |
+| [YoloV5 face](https://github.com/Qengineering/YoloV5-face-ncnn-RPi4) | ncnn | - | 320x320 | 93.6 |  - FPS | 17.2 FPS |
+| [YoloV5 face](https://github.com/Qengineering/YoloV5-face-ncnn-RPi4) | ncnn | - | 480x480 | 93.6 |  - FPS | 7.2 FPS |
+| [YoloV5 face](https://github.com/Qengineering/YoloV5-face-ncnn-RPi4) | ncnn | - | 640x640 | 93.6 |  - FPS | 4.0 FPS |
+| [YoloV5 face](https://github.com/Qengineering/YoloV5-face-ncnn-RPi4) | ncnn | - | 1280x1280 | 93.6 |  - FPS | 1.0 FPS |
+| [YoloV5 face](https://github.com/Qengineering/YoloV5-face-ncnn-RPi4) | ncnn | - | 1920x1920 | 93.6 |  - FPS | 0.5 FPS |
 
 ------------
 
